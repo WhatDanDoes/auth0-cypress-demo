@@ -27,3 +27,7 @@ cypress/integration/examples
 
 # webstorm files
 .idea/
+
+cypress.env.json
+
+*.sw*
