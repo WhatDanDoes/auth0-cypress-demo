@@ -25,6 +25,17 @@ REACT_APP_AUTH0_DOMAIN=dev-sillsdev.auth0.com
 REACT_APP_AUTH0_CLIENT_ID=SomeCrazyFakeID
 ```
 
+Do likewise in `src/conf.gs`: 
+
+```
+const {
+  REACT_APP_AUTH0_DOMAIN: AUTH0_DOMAIN = 'dev-sillsdev.auth0.com',
+  REACT_APP_AUTH0_CLIENT_ID: AUTH0_CLIENT_ID = 'somePseudoRandomAppID',
+} = process.env;
+
+//...
+```
+
 ## Dev Server
 
 ```
