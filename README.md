@@ -1,8 +1,12 @@
 # auth0-cypress-demo
 
-This was all straight up jacked from [this fine fellow](https://auth0.com/blog/end-to-end-testing-with-cypress-and-auth0/). Although this app implements the _password_ grant type, it does demonstrate the desirable _Stay logged in_ SPA functionality for which we are all hungry.
+This was all straight up jacked from [this fine fellow](https://auth0.com/blog/end-to-end-testing-with-cypress-and-auth0/).
 
-The original app took a bit of _massaging_ to get running. Dependencies are probably all up to date...
+#### This only works with email/password authentication!
+
+Although this app implements the _password_ grant type, it does demonstrate the desirable _Stay logged in_ SPA functionality for which we are all hungry.
+
+The original software took a bit of _massaging_ to get running. Dependencies are probably all up to date now...
 
 ## Setup
 
