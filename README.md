@@ -30,11 +30,13 @@ Do likewise in `src/conf.gs`:
 ```
 const {
   REACT_APP_AUTH0_DOMAIN: AUTH0_DOMAIN = 'dev-sillsdev.auth0.com',
-  REACT_APP_AUTH0_CLIENT_ID: AUTH0_CLIENT_ID = 'somePseudoRandomAppID',
+  REACT_APP_AUTH0_CLIENT_ID: AUTH0_CLIENT_ID = 'SomeCrazyFakeID',
 } = process.env;
 
 //...
 ```
+
+A little hokey to be sure, but that's how I found it.
 
 ## Dev Server
 
